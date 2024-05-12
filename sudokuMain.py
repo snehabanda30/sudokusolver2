@@ -226,10 +226,9 @@ def vertical_sudoku(image):
         imageArray = ([img, imgThreshold, imgContours, imgBigContour2],
                       [imgDetectedDigits2, imgSolvedDigits2, imgInvWarpColored2, inv_perspective2])
         stackedImage = stackImages(imageArray, 1)
-        return stackedImage
     else:
         print("No Sudoku Found")
-        return None
+    return stackedImage
 """
 cv2.waitKey(0)
 """
