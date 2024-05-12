@@ -17,7 +17,7 @@ new_image = image.copy()
 window_title = "Image"
 
 # Get User Input for editing image
-user_choice = input("What would you like the sudoku solver to solve? \n1. Total \n2. Vertical \n3. Total Square \nEnter the number from choices: ")
+user_choice = input("What would you like the sudoku solver to solve? \n1. Total \n2. Vertical \n3.Horizontal  \nEnter the number from choices: ")
 
 if user_choice == '1':
     image_path = input("Enter the path to the image: ")  # Ask for the image path
@@ -42,4 +42,3 @@ elif user_choice == '3':
 else:
     print("Invalid option selected. Aborting...")
     exit()
-
